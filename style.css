@@ -165,7 +165,7 @@ section .title::after{
 /* home section */
 .home{
     display: flex;
-    background: url("banner1.jpg") no-repeat center;
+    background: url("JRDHIw.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -285,6 +285,7 @@ section .title::after{
 }
 .education .serv-content .card .box{
     transition: all 0.3s ease;
+    color:#fff;
 }
 .education .serv-content .card:hover .box{
     transform: scale(1.05);
@@ -480,6 +481,7 @@ section .title::after{
 }
 
 /* projects section */
+
 .projects .title::after{
     content: "what i done";
 }
@@ -490,6 +492,7 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    height: 380px;
 }
 .projects .carousel .card:hover{
     background: crimson;
@@ -500,6 +503,8 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    color:#fff;
+
 }
 .projects .carousel .card:hover .box{
     transform: scale(1.05);
@@ -508,6 +513,7 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color:#fff;
 }
 .projects .carousel .card img{
     height: 150px;
